@@ -1,0 +1,66 @@
+    .Hservice {
+        background-image: url('../../Images/25544.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 660px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(73, 175, 189);
+    }
+    
+    .header__button {
+        background-color: #4811588c;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-size: 2rem;
+        cursor: pointer;
+        margin: 20px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+    
+    #neonShadow {
+        transition: 0.3s;
+        animation: glow 3s infinite;
+        transition: 0.5s;
+        -webkit-animation: glow 3s infinite;
+    }
+    
+    @keyframes glow {
+        0% {
+            box-shadow: 5px 5px 20px rgb(133, 32, 192), -5px -5px 20px rgb(85, 31, 172);
+        }
+        50% {
+            box-shadow: 5px 5px 20px rgb(81, 224, 210), -5px -5px 20px rgb(81, 224, 210)
+        }
+        100% {
+            box-shadow: 5px 5px 20px rgb(31, 57, 207), -5px -5px 20px rgb(79, 46, 199)
+        }
+    }
+    
+    .custom-shape-divider-bottom-1679854926 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1679854926 svg {
+        position: relative;
+        display: block;
+        width: calc(130% + 1.3px);
+        height: 117px;
+    }
+    
+    .custom-shape-divider-bottom-1679854926 .shape-fill {
+        fill: #FFFFFF;
+    }

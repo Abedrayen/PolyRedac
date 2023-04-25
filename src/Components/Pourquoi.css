@@ -1,0 +1,54 @@
+.pourrq {
+    background-size: cover;
+}
+
+.two-blocks-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.left-block {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.left-block img {
+    width: 80%;
+    max-width: 400px;
+}
+
+.right-block {
+    width: 50%;
+    text-align: justify;
+}
+
+.right-block p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.left-block2 {
+    width: 50%;
+    text-align: justify;
+}
+
+.left-block2 p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.right-block2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-block2 img {
+    width: 80%;
+    max-width: 400px;
+}

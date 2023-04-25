@@ -1,0 +1,92 @@
+.header {
+    background-image: url('../Images/hedhiheya.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 175, 189);
+    @keyframes wipe-in-right {
+        from {
+            clip-path: inset(0 100% 0 0);
+        }
+        to {
+            clip-path: inset(0 0 0 0);
+        }
+    }
+}
+
+.header__text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: x-large;
+}
+
+.header__button {
+    background-color: #4811588c;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#neonShadow {
+    transition: 0.3s;
+    animation: glow 3s infinite;
+    transition: 0.5s;
+    -webkit-animation: glow 3s infinite;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 5px 5px 20px rgb(133, 32, 192), -5px -5px 20px rgb(85, 31, 172);
+    }
+    50% {
+        box-shadow: 5px 5px 20px rgb(81, 224, 210), -5px -5px 20px rgb(81, 224, 210)
+    }
+    100% {
+        box-shadow: 5px 5px 20px rgb(31, 57, 207), -5px -5px 20px rgb(79, 46, 199)
+    }
+}
+
+.custom-shape-divider-bottom-1679566606 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1679566606 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 32px;
+}
+
+.custom-shape-divider-bottom-1679566606 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@keyframes wipe-in-right {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+[transition-style="in:wipe:right"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-right both;
+}

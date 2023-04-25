@@ -1,0 +1,9 @@
+.blogPost {
+    margin: 5%;
+    padding: 3%;
+    box-shadow: inset #000;
+}
+
+.title {
+    text-align: center;
+}

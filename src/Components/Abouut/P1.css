@@ -1,0 +1,19 @@
+.about-container {
+    width: 100%;
+    padding: 150px;
+    height: 450px;
+    background-color: rgb(29, 55, 201);
+    background-position: center;
+    color: aliceblue;
+    background-image: url('../../Images/alerta-para-desastres-1024x538.jpeg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container h1,
+h2 {
+    text-align: center;
+}
